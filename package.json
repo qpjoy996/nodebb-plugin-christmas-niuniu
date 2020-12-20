@@ -1,0 +1,27 @@
+{
+  "name": "nodebb-plugin-christmas-niuniu",
+  "version": "0.2.2",
+  "description": "Merry Christmas",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qpjoy996/nodebb-plugin-christmas-niuniu"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "christmas"
+  ],
+  "author": {
+    "name": "qpjoy",
+    "email": "qpjoy996@163.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/qpjoy996/nodebb-plugin-christmas-niuniu/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  }
+}

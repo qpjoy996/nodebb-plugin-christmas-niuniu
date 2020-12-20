@@ -1,0 +1,30 @@
+{
+	"id": "nodebb-plugin-christmas-niuniu",
+	"name": "NodeBB avatar christmas",
+	"description": "Merry christmas",
+	"url": "https://github.com/qpjoy996/nodebb-plugin-christmas-niuniu",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "static:app.load", "method": "init"
+		},		
+		{
+			"hook1": "filter:topics.get", "method": "getTopics"
+		},
+		{
+			"hook1": "action:post.upvote", "method": "upvote"
+		},
+		{ "hook1": "action:post.save", "method": "postChristmas" },
+		{ "hook1": "action:post.toggleVote", "method": "toggleVote" },
+		{ "hook1": "filter:users.get", "method": "getUsers" }
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+		"static/lib/main.js"
+	]
+}
