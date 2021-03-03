@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-christmas-niuniu",
-  "version": "0.2.2",
+  "version": "1.0.1",
   "description": "Merry Christmas",
   "main": "library.js",
   "repository": {

@@ -104,7 +104,7 @@ plugin.postChristmas = async function (data) {
   } else if (gift.length && gift.length < 5) {
     gift.push(type);
   }else if (gift.length === 5) {
-    return broadcast(uid, { num: 101 });
+    return;
   }
   let newGift = [...new Set(gift)];
   console.log(num, gift, newGift);
@@ -143,7 +143,7 @@ plugin.upvote = async function (data) {
   } else if (gift.length && gift.length < 5) {
     gift.push(type);
   }else if (gift.length === 5) {
-    return broadcast(uid, { num: 101 });
+    return;
   }
   let newGift = [...new Set(gift)];
   console.log(num, gift, newGift);
